@@ -10,7 +10,7 @@ Verify you can SSH into your EC2 instance
 You may need to change the PEM permissions
 `sudo chmod 600 /path/to/jenkins2.pem`
 
-Step 1 : Connect to your Linux machine
+- Step 1 : Connect to your Linux machine
 SetUp JAVA PATH
 Set up Custom TCP port: 8080 in AWS Security Groups
 
