@@ -14,7 +14,7 @@ You may need to change the PEM permissions
 SetUp JAVA PATH
 Set up Custom TCP port: 8080 in AWS Security Groups
 
-Step 2: Update Packages
+- Step 2: Update Packages
 sudo yum update
 
 Step 3 : Check Java is installed. If not install java  
