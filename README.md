@@ -18,23 +18,23 @@ Step 2: Update Packages
 sudo yum update
 
 Step 3 : Check Java is installed. If not install java  
- java -version
-sudo yum install java-1.8.0
+`java -version`
+`sudo yum install java-1.8.0`
 
 To check and select one out of multiple java versions available
-sudo /usr/sbin/alternatives --config java
+`sudo /usr/sbin/alternatives --config java`
 
 Step 4 : Download latest Jenkins code package
-sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+`sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo`
 
 Step 5 : Import a key file from Jenkins-CI to enable installation from the package
-sudo rpm --import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key
+`sudo rpm --import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key`
 
 Step 6 : Install Jenkins
-sudo yum install jenkins
+`sudo yum install jenkins`
 
 Step 7 : Start jenkins
-sudo service jenkins start
+`sudo service jenkins start`
 
 Step 8 : Access Jenkins server using the public DNS of your ec2 on port 8080
 http://{ec2-public-dns}:8080
@@ -44,7 +44,7 @@ you can find this on the ec2 instance "IPv4 Public IP"
 Note : Here you might have to allow port 8080 in your security group settings
 
 Setp 9: Get default admin password
-sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+`sudo cat /var/lib/jenkins/secrets/initialAdminPassword`
 
 Step 10: Install Git plugin through plugin manager
 
