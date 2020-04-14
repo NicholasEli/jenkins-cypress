@@ -30,7 +30,7 @@ To check and select one out of multiple java versions available
 - Step 5 : Import a key file from Jenkins-CI to enable installation from the package
 `sudo rpm --import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key`
 
-Step 6 : Install Jenkins
+- Step 6 : Install Jenkins
 `sudo yum install jenkins`
 
 Step 7 : Start jenkins
