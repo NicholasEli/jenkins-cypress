@@ -27,7 +27,7 @@ To check and select one out of multiple java versions available
 - Step 4 : Download latest Jenkins code package
 `sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo`
 
-Step 5 : Import a key file from Jenkins-CI to enable installation from the package
+- Step 5 : Import a key file from Jenkins-CI to enable installation from the package
 `sudo rpm --import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key`
 
 Step 6 : Install Jenkins
