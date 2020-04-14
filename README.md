@@ -24,7 +24,7 @@ sudo yum update
 To check and select one out of multiple java versions available
 `sudo /usr/sbin/alternatives --config java`
 
-Step 4 : Download latest Jenkins code package
+- Step 4 : Download latest Jenkins code package
 `sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo`
 
 Step 5 : Import a key file from Jenkins-CI to enable installation from the package
