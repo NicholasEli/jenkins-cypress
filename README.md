@@ -33,7 +33,7 @@ To check and select one out of multiple java versions available
 - Step 6 : Install Jenkins
 `sudo yum install jenkins`
 
-Step 7 : Start jenkins
+- Step 7 : Start jenkins
 `sudo service jenkins start`
 
 Step 8 : Access Jenkins server using the public DNS of your ec2 on port 8080
