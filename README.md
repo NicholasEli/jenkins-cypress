@@ -17,7 +17,7 @@ Set up Custom TCP port: 8080 in AWS Security Groups
 - Step 2: Update Packages
 sudo yum update
 
-Step 3 : Check Java is installed. If not install java  
+- Step 3 : Check Java is installed. If not install java  
 `java -version`
 `sudo yum install java-1.8.0`
 
